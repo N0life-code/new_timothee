@@ -1,11 +1,11 @@
 <?php
 // Fonction pour trouver la valeur minimale d'un tableau
 // TODO: Corriger l'erreur dans la fonction
-function trouver_min($tableau) {
+function trouver_min(int $tableau) {
     $min = $tableau[0];
 
     foreach ($tableau as $element) {
-        if ($min < $element) {
+        if ($min > $element) {
             $min = $element;
         }
     }
