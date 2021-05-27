@@ -10,7 +10,7 @@ function trouver_min(int $tableau) {
         }
     }
 
-    return $element;
+    return $tableau;
 }
 
 // Fonction pour trouver la valeur maximale d'un tableau
