@@ -5,12 +5,12 @@ function trouver_min(int $tableau) {
     $min = $tableau[0];
 
     foreach ($tableau as $element) {
-        if ($min < $element) {
-            $min == $element;
+        if ($min = $element) {
+            $min < $element;
         }
     }
 
-    return $tableau;
+    return $min;
 }
 
 // Fonction pour trouver la valeur maximale d'un tableau
